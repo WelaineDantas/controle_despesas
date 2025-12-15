@@ -1,0 +1,47 @@
+[
+  {
+    "id": "845ccbdf-63f7-45cf-a9c3-4212c632c558",
+    "tipo": "RECEITA",
+    "valor": 5000.0,
+    "categoria_id": "17d2f6f9-7ace-4fea-94d1-f7a9bd3cc88d",
+    "data": "2024-12-05",
+    "descricao": "Salário dezembro",
+    "forma_pagamento": "PIX"
+  },
+  {
+    "id": "0867ed4b-e289-438a-b02e-58f70a7a41d5",
+    "tipo": "DESPESA",
+    "valor": 1200.0,
+    "categoria_id": "0a1f9b5a-bd51-4026-bee9-bdb8c6ed4572",
+    "data": "2024-12-10",
+    "descricao": "Aluguel dezembro",
+    "forma_pagamento": "DEBITO",
+    "alertas": [
+      "ALTO_VALOR"
+    ]
+  },
+  {
+    "id": "95d489b2-dc90-4c22-8068-c8ff401a7f6f",
+    "tipo": "DESPESA",
+    "valor": 600.0,
+    "categoria_id": "4036f10c-83a3-4d07-8d4b-7b96c7293ea9",
+    "data": "2024-12-12",
+    "descricao": "Supermercado",
+    "forma_pagamento": "CREDITO",
+    "alertas": [
+      "ALTO_VALOR"
+    ]
+  },
+  {
+    "id": "7a723dea-c9c0-4493-b891-7ddc26af2448",
+    "tipo": "DESPESA",
+    "valor": 300.0,
+    "categoria_id": "4036f10c-83a3-4d07-8d4b-7b96c7293ea9",
+    "data": "2024-12-15",
+    "descricao": "Restaurante",
+    "forma_pagamento": "CREDITO",
+    "alertas": [
+      "LIMITE_EXCEDIDO"
+    ]
+  }
+]

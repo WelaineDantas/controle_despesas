@@ -1,0 +1,79 @@
+[
+  {
+    "id": "17d2f6f9-7ace-4fea-94d1-f7a9bd3cc88d",
+    "nome": "Salário",
+    "tipo": "RECEITA",
+    "limite_mensal": null,
+    "descricao": "Renda principal"
+  },
+  {
+    "id": "8d21f3a1-6324-4020-afaf-d101b9439952",
+    "nome": "Freelance",
+    "tipo": "RECEITA",
+    "limite_mensal": null,
+    "descricao": "Trabalhos extras"
+  },
+  {
+    "id": "01e3634a-f525-402d-885e-dffb21ba5440",
+    "nome": "Investimentos",
+    "tipo": "RECEITA",
+    "limite_mensal": null,
+    "descricao": "Rendimentos de investimentos"
+  },
+  {
+    "id": "ff9e8c57-2eb4-48b4-be17-af319b1542c7",
+    "nome": "Outros",
+    "tipo": "RECEITA",
+    "limite_mensal": null,
+    "descricao": "Outras receitas"
+  },
+  {
+    "id": "4036f10c-83a3-4d07-8d4b-7b96c7293ea9",
+    "nome": "Alimentação",
+    "tipo": "DESPESA",
+    "limite_mensal": 800.0,
+    "descricao": "Supermercado e restaurantes"
+  },
+  {
+    "id": "1c025340-71d8-4658-b3e7-5cf779ba2336",
+    "nome": "Transporte",
+    "tipo": "DESPESA",
+    "limite_mensal": 400.0,
+    "descricao": "Combustível, transporte público"
+  },
+  {
+    "id": "0a1f9b5a-bd51-4026-bee9-bdb8c6ed4572",
+    "nome": "Moradia",
+    "tipo": "DESPESA",
+    "limite_mensal": 1500.0,
+    "descricao": "Aluguel, condomínio, contas"
+  },
+  {
+    "id": "f9ddcb25-bd73-4d3b-9196-b27cf40a4bd6",
+    "nome": "Saúde",
+    "tipo": "DESPESA",
+    "limite_mensal": 300.0,
+    "descricao": "Medicamentos, consultas"
+  },
+  {
+    "id": "d0c4be7a-5442-41a1-a29a-7f68f9fcc76c",
+    "nome": "Lazer",
+    "tipo": "DESPESA",
+    "limite_mensal": 500.0,
+    "descricao": "Entretenimento"
+  },
+  {
+    "id": "838e8ef0-ddec-4a13-8ee1-f820a3f13d40",
+    "nome": "Educação",
+    "tipo": "DESPESA",
+    "limite_mensal": 400.0,
+    "descricao": "Cursos, livros"
+  },
+  {
+    "id": "e017d16b-3ee4-483e-bd3a-cd06b7d1b8d2",
+    "nome": "Outros",
+    "tipo": "DESPESA",
+    "limite_mensal": null,
+    "descricao": "Despesas diversas"
+  }
+]

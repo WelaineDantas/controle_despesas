@@ -1,0 +1,19 @@
+[
+  {
+    "id": "dd4e752e-d9a2-4e70-80f6-a7da18ae5e29",
+    "mes": 12,
+    "ano": 2024,
+    "receitas_previstas": 0.0,
+    "lancamentos_ids": [
+      "845ccbdf-63f7-45cf-a9c3-4212c632c558",
+      "0867ed4b-e289-438a-b02e-58f70a7a41d5",
+      "95d489b2-dc90-4c22-8068-c8ff401a7f6f",
+      "7a723dea-c9c0-4493-b891-7ddc26af2448"
+    ],
+    "alertas_ids": [
+      "34a5abbb-6e8a-4dd9-8250-4c1dc32154b7",
+      "c49e055c-bcdf-4995-bb8e-61966353db96",
+      "43ea84c2-62f9-4a2e-9ced-2a671eeebe6e"
+    ]
+  }
+]

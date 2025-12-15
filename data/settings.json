@@ -1,0 +1,24 @@
+{
+    "valor_minimo_alerta_alto_gasto": 500.0,
+    "meses_comparativo": 3,
+    "meta_economia_percentual": 20.0,
+    "moeda": "BRL",
+    "formato_data": "%d/%m/%Y",
+    "categorias_padrao": {
+        "receitas": [
+            {"nome": "Salário", "descricao": "Renda principal"},
+            {"nome": "Freelance", "descricao": "Trabalhos extras"},
+            {"nome": "Investimentos", "descricao": "Rendimentos de investimentos"},
+            {"nome": "Outros", "descricao": "Outras receitas"}
+        ],
+        "despesas": [
+            {"nome": "Alimentação", "limite_mensal": 800.0, "descricao": "Supermercado e restaurantes"},
+            {"nome": "Transporte", "limite_mensal": 400.0, "descricao": "Combustível, transporte público"},
+            {"nome": "Moradia", "limite_mensal": 1500.0, "descricao": "Aluguel, condomínio, contas"},
+            {"nome": "Saúde", "limite_mensal": 300.0, "descricao": "Medicamentos, consultas"},
+            {"nome": "Lazer", "limite_mensal": 500.0, "descricao": "Entretenimento"},
+            {"nome": "Educação", "limite_mensal": 400.0, "descricao": "Cursos, livros"},
+            {"nome": "Outros", "limite_mensal": null, "descricao": "Despesas diversas"}
+        ]
+    }
+}

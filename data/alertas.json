@@ -1,0 +1,32 @@
+[
+  {
+    "id": "34a5abbb-6e8a-4dd9-8250-4c1dc32154b7",
+    "tipo": "ALTO_VALOR",
+    "mensagem": "Despesa de alto valor registrada: R$1200.00",
+    "data_criacao": "2025-12-14T19:04:09.514687",
+    "lancamento_id": "0867ed4b-e289-438a-b02e-58f70a7a41d5",
+    "categoria_id": null,
+    "mes_ano": null,
+    "lido": false
+  },
+  {
+    "id": "c49e055c-bcdf-4995-bb8e-61966353db96",
+    "tipo": "ALTO_VALOR",
+    "mensagem": "Despesa de alto valor registrada: R$600.00",
+    "data_criacao": "2025-12-14T19:04:25.771859",
+    "lancamento_id": "95d489b2-dc90-4c22-8068-c8ff401a7f6f",
+    "categoria_id": null,
+    "mes_ano": null,
+    "lido": false
+  },
+  {
+    "id": "43ea84c2-62f9-4a2e-9ced-2a671eeebe6e",
+    "tipo": "LIMITE_EXCEDIDO",
+    "mensagem": "Limite da categoria 'Alimentação' excedido! Limite: R$800.00, Total: R$900.00",
+    "data_criacao": "2025-12-14T19:04:56.204072",
+    "lancamento_id": null,
+    "categoria_id": "4036f10c-83a3-4d07-8d4b-7b96c7293ea9",
+    "mes_ano": null,
+    "lido": false
+  }
+]
