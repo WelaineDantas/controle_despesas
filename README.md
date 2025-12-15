@@ -2,6 +2,9 @@
 
 Sistema CLI para gerenciar finanças pessoais desenvolvido em Python.
 
+Aluna: Maria Welaine Dantas Angelo
+Responsável por toda a integração do sistema
+
 ---
 
 ## 📋 Sobre o Projeto
