@@ -1,6 +1,7 @@
 # Sistema de Controle de Despesas
 
 Sistema CLI para gerenciar finanças pessoais desenvolvido em Python.
+Projeto final da disciplina de Programação Orientada a Objetos – Universidade Federal do Cariri (UFCA)
 
 - Aluna: Maria Welaine Dantas Angelo
 - Responsável por toda a integração do sistema
