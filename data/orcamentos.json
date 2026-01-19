@@ -15,5 +15,20 @@
       "c49e055c-bcdf-4995-bb8e-61966353db96",
       "43ea84c2-62f9-4a2e-9ced-2a671eeebe6e"
     ]
+  },
+  {
+    "id": "24fc3ac7-2e62-4c93-956c-ef64069602f6",
+    "mes": 1,
+    "ano": 2025,
+    "receitas_previstas": 0.0,
+    "lancamentos_ids": [
+      "c6ab542e-6966-4da0-85e2-1926385e02dc",
+      "42c38495-cef4-4bb0-b186-6909b7669bb1",
+      "7c99bedf-4e37-41f6-8c90-ef39e2375236"
+    ],
+    "alertas_ids": [
+      "b778a0ac-ff75-4df5-b781-e90995717088",
+      "72200cde-e09b-4c8c-aebf-b6c448b09628"
+    ]
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(set:*)",
+      "Bash(python:*)",
+      "Bash(financas listar-lancamentos:*)",
+      "Bash(financas relatorio-mensal:*)",
+      "Bash(financas estatisticas)"
+    ]
+  }
+}

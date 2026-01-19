@@ -40,6 +40,37 @@
     "data": "2024-12-15",
     "descricao": "Restaurante",
     "forma_pagamento": "CREDITO",
+    "alertas": []
+  },
+  {
+    "id": "c6ab542e-6966-4da0-85e2-1926385e02dc",
+    "tipo": "RECEITA",
+    "valor": 5000.0,
+    "categoria_id": "17d2f6f9-7ace-4fea-94d1-f7a9bd3cc88d",
+    "data": "2025-01-05",
+    "descricao": "Salario janeiro",
+    "forma_pagamento": "PIX"
+  },
+  {
+    "id": "42c38495-cef4-4bb0-b186-6909b7669bb1",
+    "tipo": "DESPESA",
+    "valor": 600.0,
+    "categoria_id": "4036f10c-83a3-4d07-8d4b-7b96c7293ea9",
+    "data": "2025-01-10",
+    "descricao": "Supermercado",
+    "forma_pagamento": "CREDITO",
+    "alertas": [
+      "ALTO_VALOR"
+    ]
+  },
+  {
+    "id": "7c99bedf-4e37-41f6-8c90-ef39e2375236",
+    "tipo": "DESPESA",
+    "valor": 300.0,
+    "categoria_id": "4036f10c-83a3-4d07-8d4b-7b96c7293ea9",
+    "data": "2025-01-15",
+    "descricao": "Restaurante",
+    "forma_pagamento": "DEBITO",
     "alertas": [
       "LIMITE_EXCEDIDO"
     ]
