@@ -1,5 +1,5 @@
 """
-CLI Principal - Interface de linha de comando para o sistema de finanças.
+CLI Principal - Interface de linha de comando para o sistema de financas.
 """
 
 import click
@@ -15,9 +15,9 @@ from .comandos_alerta import listar_alertas, marcar_alertas_lidos
 @click.version_option(version="1.0.0", prog_name="Controle de Despesas")
 def cli():
     """
-    💰 Sistema de Controle de Despesas e Receitas.
-    
-    Gerencie suas finanças pessoais com facilidade!
+    Sistema de Controle de Despesas e Receitas.
+
+    Gerencie suas financas pessoais com facilidade!
     """
     pass
 
@@ -25,12 +25,12 @@ def cli():
 # Registrar grupos de comandos
 cli.add_command(categoria_group)
 
-# Registrar comandos de lançamentos
+# Registrar comandos de lancamentos
 cli.add_command(adicionar_receita)
 cli.add_command(adicionar_despesa)
 cli.add_command(listar_lancamentos)
 
-# Registrar comandos de relatórios
+# Registrar comandos de relatorios
 cli.add_command(relatorio_mensal)
 cli.add_command(relatorio_comparativo)
 cli.add_command(estatisticas)
@@ -42,12 +42,12 @@ cli.add_command(marcar_alertas_lidos)
 
 @cli.command("inicializar")
 def inicializar():
-    """🚀 Inicializa o sistema com categorias padrão."""
+    """Inicializa o sistema com categorias padrao."""
     gerenciador = get_gerenciador()
-    
+
     gerenciador.inicializar_categorias_padrao()
-    click.echo("✅ Sistema inicializado com categorias padrão!")
-    click.echo("\n💡 Use 'financas categoria listar' para ver as categorias disponíveis.")
+    click.echo("[OK] Sistema inicializado com categorias padrao!")
+    click.echo("\nUse 'financas categoria listar' para ver as categorias disponiveis.")
 
 
 if __name__ == "__main__":

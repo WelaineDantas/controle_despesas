@@ -145,8 +145,8 @@ class Alerta:
     # ==================== MÉTODOS ESPECIAIS ====================
     
     def __str__(self) -> str:
-        """Representação amigável do alerta."""
-        status = "✓" if self._lido else "●"
+        """Representacao amigavel do alerta."""
+        status = "OK" if self._lido else "!"
         return f"[{status}] {self._tipo.value}: {self._mensagem}"
     
     def __repr__(self) -> str:

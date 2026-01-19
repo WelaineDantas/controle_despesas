@@ -93,27 +93,27 @@ class TestAlerta:
         assert alerta.nivel_severidade == 3
     
     def test_str_alerta_nao_lido(self):
-        """Testa representação string de alerta não lido."""
+        """Testa representacao string de alerta nao lido."""
         alerta = Alerta(
             tipo=TipoAlerta.ALTO_VALOR,
             mensagem="Despesa alta"
         )
-        
+
         resultado = str(alerta)
-        assert "●" in resultado
+        assert "[!]" in resultado
         assert "ALTO_VALOR" in resultado
         assert "Despesa alta" in resultado
-    
+
     def test_str_alerta_lido(self):
-        """Testa representação string de alerta lido."""
+        """Testa representacao string de alerta lido."""
         alerta = Alerta(
             tipo=TipoAlerta.ALTO_VALOR,
             mensagem="Despesa alta"
         )
         alerta.marcar_como_lido()
-        
+
         resultado = str(alerta)
-        assert "✓" in resultado
+        assert "[OK]" in resultado
     
     def test_eq_alertas(self):
         """Testa comparação de alertas por ID."""
